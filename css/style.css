@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "Airfool";
+    src: url("../fonts/Airfool.woff2") format("woff2");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0px 240px 0 240px;
+    width: 1440px;
+    background-color: #FAEBD7;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container_main {
+    margin: 32px 248px 80px 248px;
+}
+
+.container_sec {
+    margin: 32px 150px 80px 248px;
+}
+
+.page-hero-header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 396px;
+}
+
+
+.page-hero-header {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    margin-bottom: 64px;
+}
+
+.page-hero-header__Logo {
+    font-family: "Airfool";
+    color: #FE959D;
+    font-size: 64px;
+    margin: 0;
+    width: 15%;
+}
+
+
+.header-nav__item {
+    color: #321112;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header-nav__item-contact {
+    color: #321112;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.hero-header__btn {
+    background-color: #321112;
+    padding: 20px 35px 20px 35px;
+    border-radius: 32px;
+    color: #FE959D;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.hero-content-text {
+    width: 456px;
+}
+
+.page-hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1040px;
+}
+
+.hero-content-text__title {
+    font-family: "Airfool";
+    font-size: 64px;
+    letter-spacing: 4px;
+    color: #FE959D;
+    margin: 0px 0px 16px 0;
+}
+
+.hero-content-text__text {
+    font-size: 20px;
+    font-weight: 400;
+    color: #321112;
+    margin: 0px 0px 32px 0px;
+}
+
+.hero-content-text__link{
+    font-family: "Airfool";
+    font-size: 40px;
+    color: #321112;
+    background-color: #FE959D;
+    padding: 8px 12px 8px 12px;
+    border-radius: 32px;
+}
+
+/* .page-about {
+    background-color: #FE959D;
+} */
+
+.wrap  {
+    background-color: #FE959D;
+}
+
+.about-content-text {
+    width: 456px;
+}
+
+
+.about-content-text__title {
+    font-family: "Airfool";
+    font-size: 64px;
+    color: #321112;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+
+.about-content-text__text {
+    font-size: 24px;
+    color: #FAEBD7;
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+
+.page-about-content {
+    display: flex;
+}
+
