@@ -5,10 +5,21 @@
     font-weight: normal; 
 }
 
+
+
+
+
+
+
+
+
+
+
 body {
     font-family: "Inter", sans-serif;
     background-color: #FAEBD7;
     margin: 0 auto;
+
 }
 
 p {
@@ -34,15 +45,56 @@ section {
     margin-bottom: 80px;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
+
+
+
+
+
+
+
+
+
+
+.anchor {
+    position: absolute;
+    transform: translateY(-50vh);
+  }
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     padding: 32px 0px 32px 0px;
     max-width: 1140px;
 }
 
+
 .mx-auto {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .page-hero-header__nav {
     display: flex;
@@ -64,7 +116,7 @@ section {
     color: #FE959D;
     font-size: 64px;
     margin: 0;
-    width: 10%;
+    width: 16%;
 }
 
 
@@ -130,15 +182,30 @@ section {
     border-radius: 18px; */
 }
 
-.btn {
+.btn :not(:hover){
     height: 62px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 260px;
+    width: 200px;
     background-color: #FE959D;
     border-radius: 18px;
+    transition: all 0.5s ease;
 }
+
+.btn :hover {
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    background-color: #FF6F7A;
+    border-radius: 18px;
+    color: #5E373A;
+    transition: all 0.5s ease;
+}
+
+
 
 
 .wrap  {
@@ -147,7 +214,7 @@ section {
 }
 
 .about-content-text {
-    width: 456px;
+    width: 380px;
 }
 
 
@@ -161,7 +228,7 @@ section {
 }
 
 .about-content-text__text {
-    font-size: 24px;
+    font-size: 20px;
     color: #FAEBD7;
     margin-bottom: 28px;
     margin-top: 0px;
@@ -179,10 +246,7 @@ section {
 }
 
 
-.page-menu__title-container {
-    display: flex;
-    justify-content: center;
-}
+
 
 .menu-content__title {
     font-family: "Airfool";
@@ -206,8 +270,9 @@ section {
 
 .coffe-menu__stroke {
     border: solid #FAEBD7 2px;
-    width: 318px;
-    height: 460px;
+    width: 320px;
+    height: 480px;
+    border-radius: 12px;
 }
 
 .coffe-menu__title-container {
@@ -281,53 +346,126 @@ section {
     align-items: center;
 }
 
-
-.elipse-1 {
+.elipse-setting {
     position: absolute;
     background: #FE959D;
+    border-radius: 50%;
+}
+
+.elipse-1 {
     width: 230px;
     height: 230px;
-    border-radius: 50%;
     transform: translate(104px, 50px);
 }
 
 .elipse-2 {
-    position: absolute;
-    background: #FE959D;
     width: 321px;
     height: 321px;
-    border-radius: 50%;
     transform: translate(115px, 330px);
 }
 
 .elipse-3 {
-    position: absolute;
-    background: #FE959D;
     width: 167px;
     height: 167px;
-    border-radius: 50%;
     transform: translate(884px, 90px);
 }
 
 .elipse-4 {
-    position: absolute;
-    background: #FE959D;
     width: 254px;
     height: 254px;
-    border-radius: 50%;
     transform: translate(575px, 213px);
 }
 
 .elipse-5 {
-    position: absolute;
-    background: #FE959D;
     width: 181px;
     height: 181px;
-    border-radius: 50%;
     transform: translate(878px, 480px);
 }
 
+.multi_bg {
+    /* Крупный горох */
+    background-size: 86.4px 86.4px;
+    background-repeat: repeat;
+    background-position: 43px -14px, 0px 29px;
+    background-color: #FE959D;
+    background-image: radial-gradient(circle, #FAEBD7 30px, transparent 31px);
+}
 
+.page-where {
+    margin-bottom: 0px;
+} 
+
+
+.where-content__title {
+    font-family: "Airfool";
+    color: #83454A;
+    font-size: 48px;
+    font-weight: 100;
+    padding: 20px 70px 20px 70px;
+    background-color: #FAEBD7;
+    border-radius: 32px;
+    width: 200px;
+    box-shadow: 1px 0px 10px rgb(95, 35, 39, .25);
+    margin-bottom: 40px;
+}
+
+.where-content__map {
+    display: flex;
+    justify-content: center;
+}
+
+.where-content__map iframe {
+    border-radius: 28px;
+}
+
+
+.page-footer {
+    background-color: #83454A;
+    margin-bottom: 0px;
+}
+
+.page-footer-content__title {
+    font-family: "Airfool";
+    font-size: 32px;
+    font-weight: 100;
+    color: #FAEBD7;
+    margin-bottom: 30px;
+}
+
+
+
+
+.social-network-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 164px;
+}
+
+.page-footer__content-contact {
+    width: 206px;
+}
+
+.page-footer__content-info {
+    width: 345px;
+}
+
+.contact__item {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FAEBD7;
+}
+
+.content-info__item {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FAEBD7;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
 
 
 

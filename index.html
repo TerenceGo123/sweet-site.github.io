@@ -18,11 +18,11 @@
                 <img src="img/logo.svg"  class="page-hero-header__Logo" alt="logo">
                     <nav class="page-hero-header__nav">  <!-- Навигационное меню -->
                         <a href="#about" class="header-nav__item">О НАС</a>
-                        <a href="" class="header-nav__item">МЕНЮ</a>
-                        <a href="" class="header-nav__item">КОНТАКТЫ</a>
+                        <a href="#menu" class="header-nav__item">МЕНЮ</a>
+                        <a href="#contact" class="header-nav__item">КОНТАКТЫ</a>
                     </nav>
                     <div class="btn">
-                        <a href="" class="hero-header__btn">ГДЕ МЫ?</a> <!-- Кнопка Где Мы -->       
+                        <a href="#where" class="hero-header__btn">ГДЕ МЫ?</a> <!-- Кнопка Где Мы -->       
                     </div>
             </header>
 
@@ -31,7 +31,7 @@
                     <h1 class="hero-content-text__title">Добро пожаловать!</h1>
                     <p class="hero-content-text__text">Мы рады предложить вам самые вкусные десерты, приготовленные вручную из свежих ингредиентов. В нашем меню вы найдете широкий выбор тортов</p>
                     <div class="btn">
-                        <a href="" class="hero-content-text__link">ВПЕРЕД!</a>
+                        <a href="#about" class="hero-content-text__link">ВПЕРЕД!</a>
                     </div>
                 </div>
                 <img src="img/Hero-img.png" class="hero-content__img"  alt="капкейк">
@@ -44,26 +44,28 @@
             <div class="page-about-content">
                 <img src="img/About-img.svg"  class="about-content__img" alt="about">
                 <div class="about-content-text">
-                    <h2 class="about-content-text__title" id="about" >О НАС</h2>
+                    <h2 class="about-content-text__title">О НАС</h2>
                     <p class="about-content-text__text">Посетите нашу кондитерскую в центре города и насладитесь атмосферой уюта и тепла. У нас всегда царит дружелюбная обстановка, где каждый чувствует себя желанным гостем. </p>
+                    <span class="anchor" id="about"></span>
                     <p class="about-content-text__text">Приходите к нам с семьей, друзьями или коллегами – мы сделаем все возможное, чтобы ваше посещение оставило только приятные впечатления.</p>
                 </div>
             </div>
         </div>
     </section>
     
-    <section class="page-menu">
-        <div class="container mx-auto">
-            <div class="page-menu-content">
+    <section class="page-menu"> <span id="menu"></span>
+        <div class="container mx-auto"> 
+            <div class="page-menu-content"> 
                 <div class="background-elipse">
-                    <div class="elipse-1"></div>
-                    <div class="elipse-2"></div>
-                    <div class="elipse-3"></div>
-                    <div class="elipse-4"></div>
-                    <div class="elipse-5"></div>
+                    <div class="elipse-1 elipse-setting"></div>
+                    <div class="elipse-2 elipse-setting"></div>
+                    <div class="elipse-3 elipse-setting"></div>
+                    <div class="elipse-4 elipse-setting"></div>
+                    <div class="elipse-5 elipse-setting"></div>
                 </div>
 
-                <div class="page-menu__title-container">
+                <div class="title-container">
+                    
                     <h2 class="menu-content__title">МЕНЮ</h2>
                 </div>
 
@@ -152,10 +154,12 @@
                             </td>
 
                         </tr>
+                        
+                        
 
-                        <tr>
+                        <tr class="product-down">
 
-                             <td class="product-table__item">
+                            <td class="product-table__item">
                                 <div class="item-content">
                                     <div class="item__title">
                                         <h4>КАПКЕЙКИ</h4>
@@ -165,7 +169,6 @@
                                     </div>
                                 </div>
                             </td>
-
                             <td class="product-table__item">
                                 <div class="item-content">
                                     <div class="item__title">
@@ -176,20 +179,62 @@
                                     </div>
                                 </div>
                             </td>
-
+                            
                         </tr>
-
-                        </table>
+                        
+                    </table>
+                    
 
                     </div>
 
                 </div>
 
-
             </div>
         </div>
     </section>
 
+    <section class="page-where multi_bg">
+        <div class="container mx-auto ">
+            <div class="page-where-content">
+                <div class="title-container">
+                    <h2 class="where-content__title">ГДЕ МЫ?</h2>
+                </div>
+                <span id="where"></span>
+                <div class="where-content__map">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3c17353b86e4bdfc059039a17512baa50244af91bc8380d97ba5ae44c840b829&amp;width=751&amp;height=483&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="page-footer">
+        <div class="container mx-auto">
+            <div class="page-footer__content">
+                <div class="title-container">
+                    <span id="contact"></span>
+                    <h3 class="page-footer-content__title">КОНТАКТЫ</h3>
+                </div>
+
+                <div class="contact-content">
+                    <div class="social-network-icons">
+                        <a href="https://vk.com/terenceg" class="social-network-icons__item"><img src="img/vk_ico.svg" alt=""></a>
+                        <a href="https://www.instagram.com" class="social-network-icons__item"><img src="img/Inst_ico.svg" alt=""></a>
+                        <a href="https://t.me/terencego" class="social-network-icons__item"><img src="img/tg_ico.svg" alt=""></a>
+                    </div>
+    
+                    <div class="page-footer__content-contact">
+                        <a href="tel:+7(999)9999999" class="contact__item">+7 (999) 999 99 99</a>
+                        <a href="mailto:sweet_krd@yandex.ru" class="contact__item">sweet_krd@yandex.ru</a>
+                    </div>
+    
+                    <div class="page-footer__content-info">
+                        <p class="content-info__item">© 2000—2024 SWEET</p>
+                        <a href="" class="content-info__item">Политика конфиденциальности</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
 </body>
 </html>
