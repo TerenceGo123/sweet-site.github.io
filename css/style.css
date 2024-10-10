@@ -1,16 +1,11 @@
+
+
 @font-face {
     font-family: "Airfool";
     src: url("../fonts/Airfool.woff2") format("woff2");
     font-style: normal; 
     font-weight: normal; 
 }
-
-
-
-
-
-
-
 
 
 
@@ -143,6 +138,10 @@ html {
 }
 
 
+
+
+
+
 .hero-content-text {
     width: 456px;
 }
@@ -193,6 +192,12 @@ html {
     transition: all 0.5s ease;
 }
 
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .btn :hover {
     height: 62px;
     display: flex;
@@ -204,6 +209,34 @@ html {
     color: #5E373A;
     transition: all 0.5s ease;
 }
+
+
+.btn-go :not(:hover) {
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    background-color: #FE959D;
+    border-radius: 18px;
+    transition: all 0.5s ease;
+}
+
+.btn-go :hover {
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    background-color: #FF6F7A;
+    border-radius: 18px;
+    color: #5E373A;
+    transition: all 0.5s ease;
+}
+
+
+
+
 
 
 
@@ -248,6 +281,11 @@ html {
 
 
 
+
+
+
+
+
 .menu-content__title {
     font-family: "Airfool";
     font-size: 48px;
@@ -268,6 +306,8 @@ html {
     align-items: center;
 }
 
+
+
 .coffe-menu__stroke {
     border: solid #FAEBD7 2px;
     width: 320px;
@@ -282,7 +322,7 @@ html {
 }
 
 .coffe-menu__title{
-    font-family: Airfool;
+    font-family: "Airfool";
     color: #FAEBD7;
     font-weight: 100;
     font-size: 32px;
@@ -330,12 +370,12 @@ html {
     /*padding-top: 32px;*/
 }
 
-.item__image {
+
+.item__image  {
     display: flex;
     justify-content: center;
-
 }
-.item__image img {
+.item__image img  {
     width: 237px;
     height: 173px;
 }

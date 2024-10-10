@@ -1,0 +1,540 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1199px) {
+    .container {
+        padding: 32px 0px 32px 0px;
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        padding: 32px 0px 32px 0px;
+        max-width: 720px;
+    }
+
+    .mx-auto {
+        margin: auto;
+    }
+
+    .hero-content-text__title {
+        font-family: "Airfool";
+        font-size: 48px;
+        letter-spacing: 4px;
+        color: #FE959D;
+        margin: 0px 0px 16px 0;
+        font-weight: 1;
+    }
+
+    .hero-content-text__text {
+        font-size: 16px;
+        font-weight: 400;
+        color: #83454A;
+        margin: 0px 0px 32px 0px;
+    }
+
+    .btn :not(:hover) {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 130px;
+        background-color: #FE959D;
+        border-radius: 18px;
+        transition: all 0.5s ease;
+    }
+
+    .btn :hover {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 130px;
+        background-color: #FF6F7A;
+        border-radius: 18px;
+        color: #5E373A;
+        transition: all 0.5s ease;
+    }
+
+
+    .hero-header__btn {
+        font-family: "Airfool";
+        /* background-color: #FE959D;
+        padding: 18px 35px 20px 35px; */
+        border-radius: 24px;
+        color: #83454A;
+        font-size: 24px;
+    }
+
+    .header-nav__item {
+        color: #83454A;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+
+    .btn-go :not(:hover) {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        background-color: #FE959D;
+        border-radius: 18px;
+        transition: all 0.5s ease;
+    }
+
+    .btn-go :hover {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        background-color: #FF6F7A;
+        border-radius: 18px;
+        color: #5E373A;
+        transition: all 0.5s ease;
+    }
+
+    .hero-content-text__link {
+        font-family: "Airfool";
+        font-size: 24px;
+        color: #83454A;
+    }
+
+    .page-hero-content {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    .hero-content-text {
+        width: 331px;
+    }
+
+    .hero-content__img {
+        width: 45%;
+    } 
+
+
+
+
+    .about-content-text__title {
+        font-family: "Airfool";
+        font-size: 36px;
+        color: #83454A;
+        margin-bottom: 16px;
+        margin-top: 0px;
+        font-weight: 100;
+    }
+
+    .about-content-text__text {
+        font-size: 14px;
+        color: #FAEBD7;
+        margin-bottom: 28px;
+        margin-top: 0px;
+    }
+
+    .about-content-text {
+        width: 237px;
+    }
+
+    .page-about-content {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .coffe-menu__stroke {
+        border: solid #FAEBD7 2px;
+        width: 300px;
+        height: 430px;
+        border-radius: 12px;
+        margin: 11px;
+    }
+
+    .content__coffe-menu {
+        position: relative;
+        width: 284px;
+        height: 454px;
+        background-color: #83454A;
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .coffe-menu__title {
+        font-family: "Airfool";
+        color: #FAEBD7;
+        font-weight: 100;
+        font-size: 24px;
+    }
+
+    .coffe-menu__item {
+        margin-bottom: 8px;
+    }
+
+    .coffe-menu__item h4 {
+        color: #FAEBD7;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 4px;
+    }
+
+    .coffe-menu__item p {
+        color: #FAEBD7;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .coffe-menu__list
+    {
+        width: 263px;
+    }
+
+    .item__title {
+        width: 200px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #83454A;
+        font-size: 14px;
+        font-weight: 700;
+        /* margin-bottom: 20px; */
+        /* padding-top: 32px; */
+    }
+
+    .item__image img {
+        width: 187px;
+        height: 143px;
+    }
+
+    .product-table {
+        border-spacing: 16px 20px;
+        position: relative;
+    }
+
+    .product-table__item {
+        width: 261px;
+        height: 190px;
+        background-color: #FAEBD7;
+        border-radius: 16px;
+        box-shadow: 1px 0px 10px rgb(95, 35, 39, .25);
+    }
+
+    .elipse-1 {
+        width: 220px;
+        height: 220px;
+        transform: translate(35px, 50px);
+    }
+
+    .elipse-2 {
+        width: 250px;
+        height: 250px;
+        transform: translate(47px, 330px);
+    }
+
+    .elipse-3 {
+        width: 150px;
+        height: 150px;
+        transform: translate(538px, 90px);
+    }
+
+    .elipse-4 {
+        width: 200px;
+        height: 200px;
+        transform: translate(347px, 213px);
+    }
+
+    .elipse-5 {
+        width: 160px;
+        height: 160px;
+        transform: translate(546px, 393px);
+    }
+
+    .menu-content__title {
+        font-size: 36px;
+    }
+
+    .where-content__title {
+        font-family: "Airfool";
+        color: #83454A;
+        font-size: 36px;
+        font-weight: 100;
+        padding: 20px 70px 20px 70px;
+        background-color: #FAEBD7;
+        border-radius: 32px;
+        width: 150px;
+        box-shadow: 1px 0px 10px rgb(95, 35, 39, .25);
+        margin-bottom: 40px;
+    }
+
+    .page-footer-content__title {
+        font-size: 24px;
+    }
+
+    .contact__item {
+        font-size: 14px;
+        font-weight: 700;
+        color: #FAEBD7;
+    }
+
+    .content-info__item {
+        font-size: 14px;
+        font-weight: 700;
+        color: #FAEBD7;
+    }
+
+    .page-footer__content-info {
+        width: 227px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .social-network-icons {
+        display: flex;
+        justify-content: space-between;
+        width: 149px;
+    }
+
+    .social-network-icons__item img {
+        width: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+
+
+    .container {
+        max-width: 540px;
+    }
+
+    section {
+        margin-bottom: 28px;
+    }
+
+    .mx-auto {
+        margin: auto;
+    }
+
+    .hero-content-text__title {
+        font-size: 40px;
+    }
+
+    .hero-content-text__text {
+        font-size: 16px;
+        margin: 0px 0px 24px 0px;
+    }
+    
+    .page-hero-header__Logo {
+        width: 14%;
+    }
+
+    .header-nav__item {
+        font-size: 14px;
+    }
+
+    .page-hero-header__nav {
+        width: 265px;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btn :hover {
+        height: 44px;
+        width: 132px;
+    }
+    
+    .btn :not(:hover){
+        height: 44px;
+        width: 132px;
+    }
+    
+    .btn-go :not(:hover) {
+        height: 44px;
+        width: 132px;
+    }
+    
+    .btn-go :hover {
+        height: 44px;
+        width: 132px;
+    }
+
+    .hero-header__btn {
+        font-size: 20px;
+    }
+
+    .hero-content-text__link {
+        font-size: 24px;
+    }
+
+
+
+
+    .about-content-text__title {
+        font-size: 32px;
+        margin-bottom: 4px;
+    }
+
+    .about-content-text__text {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .about-content-text {
+        width: 237px;
+    }
+    
+    .about-content__img {
+        width: 45%;
+        margin-right: 12px;
+    }
+
+    .page-about-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+
+    .menu-content__title {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .content__coffe-menu {
+        width: 248px;
+        height: 400px;
+    }
+
+    .coffe-menu__title {
+        font-size: 20px;
+    }
+
+    .coffe-menu__stroke {
+        width: 226px;
+        height: 380px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .coffe-menu__title-container {
+        padding: 12px 0px 12px 0px;
+    }
+
+    .coffe-menu__item h4 {
+        font-size: 12px;
+    }
+
+    .coffe-menu__item p {
+        font-size: 10px;
+    }
+
+    .coffe-menu__list {
+        width: 170px;
+    }
+
+    .coffe-menu__list ul {
+        padding: 0;
+    }
+
+    .item__title {
+        width: auto;
+        height: 24px;
+        font-size: 12px;
+    }
+
+    .item__image img {
+        width: 157px;
+        height: 113px;
+    }
+
+    .product-table__item {
+        height: 148px;
+        width: 174px;
+    }
+
+    .menu-item {
+        flex-direction: column-reverse;
+    }
+
+    .elipse-1 {
+        width: 180px;
+        height: 180px;
+        transform: translate(180px, 402px);
+    }
+
+    .elipse-2 {
+        transform: translate(171px, 613px);
+    }
+
+    .elipse-3 {
+        transform: translate(297px, 78px);
+    }
+
+    .elipse-4 {
+        width: 180px;
+        height: 180px;
+        transform: translate(123px, 152px);
+    }
+
+    .elipse-5 {
+        width: 150px;
+        height: 150px;
+        transform: translate(308px, 280px);
+    }
+
+    .where-content__title {
+
+        font-size: 32px;
+        width: 133px;
+        margin-bottom: 20px;
+    }
+
+    .page-footer-content__title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .social-network-icons__item img {
+        width: 30px;
+    }
+
+    .social-network-icons {
+        width: 110px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .contact__item {
+        font-size: 12px;
+    }
+
+    .content-info__item {
+        font-size: 12px;
+    }
+
+    .page-footer__content-contact {
+        width: 114px;
+    }
+
+    .page-footer__content-info {
+        width: 227px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
