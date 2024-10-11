@@ -242,19 +242,25 @@ html {
 
 
 .wrap  {
-    background-color: #FE959D;
-    /* box-shadow: 2px 1px 9px 8px rgb(254 149 157 / 100%); */
+    background-image: url("../img/about_bg-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
 }
 
 .about-content-text {
-    width: 380px;
+    width: 402px;
+    /* display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row; */
 }
 
 
 .about-content-text__title {
     font-family: "Airfool";
     font-size: 48px;
-    color: #83454A;
+    color: #FE959D;
     margin-bottom: 16px;
     margin-top: 0px;
     font-weight: 100;
@@ -265,12 +271,13 @@ html {
     color: #FAEBD7;
     margin-bottom: 28px;
     margin-top: 0px;
+    font-weight: 600;
 }
 
 .page-about-content {
     display: flex;
     justify-content: start;
-    align-items: start;
+    align-items: center;
 }
 
 .about-content__img {
@@ -278,7 +285,12 @@ html {
     margin-right: 60px;
 }
 
-
+.height-about {
+    height: 568px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
 
 
 
@@ -318,7 +330,7 @@ html {
 .coffe-menu__title-container {
     display: flex;
     justify-content: center;
-    padding: 24px 0px 16px 0px;
+    padding: 16px 0px 16px 0px
 }
 
 .coffe-menu__title{
@@ -341,7 +353,7 @@ html {
 
 .coffe-menu__item p {
     color: #FAEBD7;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
 }
 .product-table {
@@ -456,6 +468,7 @@ html {
 
 .where-content__map iframe {
     border-radius: 28px;
+    box-shadow: 1px 0px 10px rgb(95, 35, 39, .7);
 }
 
 
@@ -491,7 +504,7 @@ html {
 
 .contact__item {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
     color: #FAEBD7;
 }
 
@@ -503,9 +516,15 @@ html {
 
 .contact-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
+    margin-bottom: 10px;
 }
 
-
+.company-yars {
+    display: flex;
+    justify-content: center;
+    color: #FAEBD7;
+    font-weight: 400;
+}
 
