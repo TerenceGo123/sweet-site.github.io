@@ -1,5 +1,4 @@
 
-
 @font-face {
     font-family: "Airfool";
     src: url("../fonts/Airfool.woff2") format("woff2");
@@ -14,7 +13,7 @@ body {
     font-family: "Inter", sans-serif;
     background-color: #FAEBD7;
     margin: 0 auto;
-
+    overflow: hidden;
 }
 
 p {
@@ -242,7 +241,7 @@ html {
 
 
 .wrap  {
-    background-image: url("../img/about_bg-image.png");
+    background-image: url("../img/about_bg-image-1.png");
     background-repeat: no-repeat;
     background-position: center;
     height: 600px;

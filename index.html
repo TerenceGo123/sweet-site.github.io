@@ -17,13 +17,21 @@
         <div class="container mx-auto">
             <header class="page-hero-header">
                 <img src="img/logo.svg"  class="page-hero-header__Logo" alt="logo">
-                    <nav class="page-hero-header__nav">  <!-- Навигационное меню -->
-                        <a href="#about" class="header-nav__item">О НАС</a>
-                        <a href="#menu" class="header-nav__item">МЕНЮ</a>
-                        <a href="#contact" class="header-nav__item">КОНТАКТЫ</a>
+                    <nav class="page-hero-header__nav">
+                        <ul class="nav-menu__list">
+                            <a href="#about" class="header-nav__item">О НАС</a>
+                            <a href="#menu" class="header-nav__item">МЕНЮ</a>
+                            <a href="#contact" class="header-nav__item">КОНТАКТЫ</a>
+                        </ul>  <!-- Навигационное меню -->
                     </nav>
                     <div class="btn">
                         <a href="#where" class="hero-header__btn">ГДЕ МЫ?</a> <!-- Кнопка Где Мы -->       
+                    </div>
+
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
             </header>
 
@@ -78,48 +86,52 @@
                             </div>
                             <div class="coffe-menu__list">
                                 <ul>
+                                    <div class="list-left">
+                                        <li class="coffe-menu__item">
+                                            <div>
+                                                <h4>#### Кофе с Молоком</h4>
+                                                <p>Состав: кофе, молоко</p>
+                                            </div>
+                                        </li>
+    
+                                        <li class="coffe-menu__item">
+                                            <div>
+                                                <h4>#### Капучино</h4>
+                                                <p>Состав: эспрессо, вспененное молоко</p>
+                                            </div>
+                                        </li>
+    
+                                        <li class="coffe-menu__item">
+                                            <div>
+                                                <h4>#### Раф Кофе</h4>
+                                                <p>Состав: эспрессо, сливки, ванильный сахар</p>
+                                            </div>
+                                        </li>
+                                    </div>
 
-                                    <li class="coffe-menu__item">
-                                        <div>
-                                            <h4>#### Кофе с Молоком</h4>
-                                            <p>Состав: кофе, молоко</p>
-                                        </div>
-                                    </li>
+                                    <div class="list-right">
+                                        <li class="coffe-menu__item">
+                                            <div>
+                                                <h4>#### Айс Латте</h4>
+                                                <p>Состав: холодное вспененное молоко, эспрессо, лед</p>
+                                            </div>
+                                        </li>
+    
+                                        <li class="coffe-menu__item">
+                                            <div>
+                                                <h4>#### Мокка Фраппе</h4>
+                                                <p>Состав: шоколадный сироп, растворимый кофе, взбитые сливки, лёд, молоко</p>
+                                            </div>
+                                        </li>
+    
+                                        <li class="coffe-menu__item">
+                                            <div>
+                                                <h4>#### Моккачино</h4>
+                                                <p>Состав: эспрессо, шоколадный сироп, вспененное молоко</p>
+                                            </div>
+                                        </li>
+                                    </div>
 
-                                    <li class="coffe-menu__item">
-                                        <div>
-                                            <h4>#### Капучино</h4>
-                                            <p>Состав: эспрессо, вспененное молоко</p>
-                                        </div>
-                                    </li>
-
-                                    <li class="coffe-menu__item">
-                                        <div>
-                                            <h4>#### Раф Кофе</h4>
-                                            <p>Состав: эспрессо, сливки, ванильный сахар</p>
-                                        </div>
-                                    </li>
-
-                                    <li class="coffe-menu__item">
-                                        <div>
-                                            <h4>#### Айс Латте</h4>
-                                            <p>Состав: холодное вспененное молоко, эспрессо, лед</p>
-                                        </div>
-                                    </li>
-
-                                    <li class="coffe-menu__item">
-                                        <div>
-                                            <h4>#### Мокка Фраппе</h4>
-                                            <p>Состав: шоколадный сироп, растворимый кофе, взбитые сливки, лёд, молоко</p>
-                                        </div>
-                                    </li>
-
-                                    <li class="coffe-menu__item">
-                                        <div>
-                                            <h4>#### Моккачино</h4>
-                                            <p>Состав: эспрессо, шоколадный сироп, вспененное молоко</p>
-                                        </div>
-                                    </li>
 
                                 </ul>
                             </div>
@@ -233,7 +245,7 @@
             </div>
         </div>
     </section>
-    
+    <script src="script.js"></script>
 </body>
 </html>
 

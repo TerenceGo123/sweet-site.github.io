@@ -309,10 +309,25 @@
 
 @media (max-width: 767px) {
 
-
     .container {
         max-width: 540px;
     }
+
+    .page-hero-content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-content-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+
+    .hero-content__img {
+        display: none;
+    } 
 
     section {
         margin-bottom: 28px;
@@ -322,29 +337,99 @@
         margin: auto;
     }
 
+    .page-hero-header__nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        background: #FE959D;
+        z-index: 10;
+        width: 38%;
+        transition: 1s all;
+    }
+
+    .nav-menu__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        justify-content: space-evenly;
+    }
+
+    .header-nav__item {
+        font-size: 20px;
+    }
+
+    .hamburger {
+        width: 30px;
+        height: 64px;
+        padding: 5px;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 99;
+    }
+
+      .hamburger span {
+        height: 2px;
+        width: 100%;
+        display: block;
+        background-color: #83454A;
+        margin-bottom: 4px;
+        transition: 1s all;
+      }
+
+      .hamburger span:last-child {
+        margin-bottom: 0px;
+      }
+
+      .hamburger_active span {
+        margin-bottom: -2px;
+      }
+      .hamburger_active span:nth-child(1) {
+        transform: translateY(3px) rotate(-45deg);
+      }
+      .hamburger_active span:nth-child(2) {
+        display: none;
+      }
+      .hamburger_active span:nth-child(3) {
+        transform: translateY(3px) rotate(45deg);
+      }
+
+
+      .page-hero-header__nav_active {
+        right: 0px;
+      }
+    /* .page-hero-header__nav_active {
+        
+    } */
+
     .hero-content-text__title {
-        font-size: 40px;
+        font-size: 56px;
+        text-align: center;
     }
 
     .hero-content-text__text {
         font-size: 16px;
         margin: 0px 0px 24px 0px;
+        text-align: center;
+        width: 408px;
     }
     
     .page-hero-header__Logo {
         width: 14%;
     }
 
-    .header-nav__item {
-        font-size: 14px;
-    }
 
-    .page-hero-header__nav {
-        width: 265px;
+    .height-about {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
     }
 
     .btn {
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
     }
@@ -381,17 +466,23 @@
 
 
     .about-content-text__title {
-        font-size: 32px;
+        font-size: 56px;
+        text-align: center;
         margin-bottom: 4px;
     }
 
     .about-content-text__text {
-        font-size: 14px;
-        margin-bottom: 8px;
+        font-size: 20px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .wrap {
+        height: 360px;
     }
 
     .about-content-text {
-        width: 237px;
+        width: auto;
     }
     
     .about-content__img {
@@ -416,8 +507,8 @@
     }
 
     .content__coffe-menu {
-        width: 248px;
-        height: 400px;
+        width: 540px;
+        height: 300px;
     }
 
     .coffe-menu__title {
@@ -425,11 +516,11 @@
     }
 
     .coffe-menu__stroke {
-        width: 226px;
-        height: 380px;
+        width: 520px;
+        height: 280px;
         display: flex;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
     }
 
     .coffe-menu__title-container {
@@ -437,35 +528,46 @@
     }
 
     .coffe-menu__item h4 {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .coffe-menu__item p {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .coffe-menu__list {
-        width: 170px;
+        width: 500px;
     }
 
     .coffe-menu__list ul {
         padding: 0;
+        display: flex;
+        justify-content: space-evenly;
     }
+
+    .list-right {
+        width: 240px;
+    }
+
+    .list-left {
+        width: 240px;
+    }
+
 
     .item__title {
         width: auto;
         height: 24px;
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .item__image img {
-        width: 157px;
-        height: 113px;
+        width: 227px;
+        height: 183px;
     }
 
     .product-table__item {
-        height: 148px;
-        width: 174px;
+        height: 244px;
+        width: 244px;
     }
 
     .menu-item {
